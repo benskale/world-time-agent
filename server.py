@@ -18,7 +18,7 @@ app.middleware("http")(
         path="/time",
         price="$0.001",
         pay_to_address="0x23b72f31bfa80069012dc36e30380cb34aecc8f4",
-        network="base-sepolia", # for mainnet, see Running on Mainnet section
+        network="base", # for mainnet, see Running on Mainnet section
         # Optional: Add metadata for better discovery in x402 Bazaar
         description="Get current time for any location",
         input_schema={
